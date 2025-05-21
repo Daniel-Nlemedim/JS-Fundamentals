@@ -4,4 +4,4 @@ function add(a,b) {
     return a + b;
 }
 console.log(add(num1, num2));
-console.log(add(1, 'num2'));
+console.log(add(1, 3));
