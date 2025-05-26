@@ -6,7 +6,7 @@ if(args.length == 0){
 }
 
 const args2 = process.argv
-if(args2.length == 0){
+if(args2.length == 1){
     console.log("No argument ")
 }else{
     console.log('Arguments found')
