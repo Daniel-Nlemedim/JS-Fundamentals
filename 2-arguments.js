@@ -8,4 +8,7 @@ if(args.length === 0){
     console.log('Arguments found')
 }
 
-// const args = 
+const args2 = process.argv.slice(2);
+if(args2.length === 0){
+    console.log( 'No arguments found');
+}
