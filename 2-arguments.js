@@ -1,13 +1,11 @@
-const args = process.argv;
-if(args.length == 0){
-    console.log("No argument ")
-}else if(args.length == 2 ){
-    console.log('Multiple arguments found')
-}
+const args = process.argv.slice(2);
 
-const args2 = process.argv
-if(args2.length == 1){
-    console.log("No argument ")
-}else{
+if(args.length == 0){
+    console.log( args[0] || 'No arguments found');
+}else if(args.length == 1){
+    console.log(args[1] || 'Single argument found');
+}else if(args.length == 2 ){
+    console.log(args[2] || 'Multiple arguments found');
+}else {
     console.log('Arguments found')
 }
