@@ -1,5 +1,7 @@
-const words = 'Python' + ' is ';
-let sentence ;
+const words = 'Python' + ' is fun';
 console.log(words);
-const concating  = words + sentence;
-console.log(concating);
+
+const words2  = 'C' + ' is '
+let sentence ;
+const finalWords = words2 + sentence;
+console.log(finalWords);
