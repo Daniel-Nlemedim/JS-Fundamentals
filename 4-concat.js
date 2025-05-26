@@ -1,7 +1,4 @@
-const words = 'Python' + ' is fun';
-console.log(words);
+const arg1 = process.argv[2];
+const arg2 = process.argv[3];
 
-const words2  = 'C' + ' is '
-let sentence ;
-const finalWords = words2 + sentence;
-console.log(finalWords);
+console.log(`${arg1} is ${arg2}`);
